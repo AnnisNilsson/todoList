@@ -1,0 +1,108 @@
+body {
+    background: #dfe2e6;
+    color: #444;
+    font-family: 'Helvetica', arial, sans-serif;
+  }
+  
+ 
+  .add-button {
+    float:right;
+    margin:0px;
+    padding:10px;
+    width:18%;
+    height:41px;
+    background-color:  rgb(122, 12, 67);
+    color:white;
+  }
+
+  .container {
+    background: #fff;
+    max-width: 600px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #cfcbcc;
+  }
+  
+  input {
+    border: none;
+    display: block;
+    width: 80%;
+    line-height: 1.5;
+    padding: 16px 0 8px 10px;
+    border-bottom: 1px solid #cfcbcc;
+    outline:0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 1;
+    color: rgb(122, 12, 67);
+  }
+ 
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+
+}
+    
+ ul li {
+      color: #899098;
+      font-weight: 400;
+      border-bottom: 1px solid #cfcbcc;
+      line-height: 1.5;
+      padding: 8px 0;
+    }
+       ul li.checked::before {
+        content: "\25A1";
+        padding: 10px 10px;
+        font-size: 20px;
+        color:green;
+      }
+
+      
+       ul li:hover {
+        text-decoration: line-through;
+        cursor: pointer;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+     
+  
+  
+   li.checked {
+    color:green;
+     text-decoration: line-through;
+     
+   
+  }
+      ul li.checked::before {
+        content: "\2713";
+        padding: 10px 10px;
+        font-size: 20px;
+        color:green;
+
+      }
+
+      
+       ul li:hover {
+        text-decoration: none;
+
+      }
+        ul li::after {
+          content: "X";
+          background-color:rgb(114, 34, 34);
+          color: white;
+          padding-left:4px;
+          padding-right:4px;
+          text-align: right;
+          float:right;
+        }
+      }
+  }
